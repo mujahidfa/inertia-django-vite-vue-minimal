@@ -1,3 +1,18 @@
 {
-  "python.formatting.provider": "black"
+  "beautify.language": {
+    "html": ["django-html"]
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/*.html": "html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "python.formatting.provider": "black",
+  "[django-html]": {
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.tabSize": 2
+  }
 }
