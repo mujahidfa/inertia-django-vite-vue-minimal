@@ -1,5 +1,5 @@
 """
-ASGI config for inertia_django_vite_vue project.
+ASGI config for inertia_django_vite_vue_minimal project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,8 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "inertia_django_vite_vue.settings")
+os.environ.setdefault(
+    "DJANGO_SETTINGS_MODULE", "inertia_django_vite_vue_minimal.settings"
+)
 
 application = get_asgi_application()

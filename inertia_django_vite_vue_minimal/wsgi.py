@@ -1,5 +1,5 @@
 """
-WSGI config for inertia_django_vite_vue project.
+WSGI config for inertia_django_vite_vue_minimal project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "inertia_django_vite_vue.settings")
+os.environ.setdefault(
+    "DJANGO_SETTINGS_MODULE", "inertia_django_vite_vue_minimal.settings"
+)
 
 application = get_wsgi_application()
