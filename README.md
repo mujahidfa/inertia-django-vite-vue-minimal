@@ -34,7 +34,7 @@ A minimal, working template for Inertia + Django + Vite + Vue.
    pip install -r requirements.txt
    ```
 
-3. Install required Ncode.js packages.
+3. Install required Node.js packages.
 
    ```sh
    npm install
