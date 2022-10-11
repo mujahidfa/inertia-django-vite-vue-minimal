@@ -1,0 +1,17 @@
+{
+  "name": "inertia-django-vite-vue-minimal",
+  "version": "0.0.0",
+  "description": "A minimal, working template for Inertia + Django + Vite + Vue.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@inertiajs/inertia": "^0.11.1",
+    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@types/node": "^18.8.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "vite": "^3.1.7",
+    "vue": "^3.2.40"
+  }
+}

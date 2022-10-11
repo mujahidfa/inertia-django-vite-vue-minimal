@@ -1,3 +1,5 @@
 black==22.10.0
 Django==4.1.2
+django-vite==2.0.2
+inertia-django==0.4.1
 whitenoise==6.2.0
