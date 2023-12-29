@@ -5,8 +5,8 @@ A minimal, working template for Inertia + Django + Vite + Vue.
 ## Technologies
 
 1. Inertia - powered by the official [Inertia.js Django Adapter](https://github.com/inertiajs/inertia-django)
-2. Django v4.1
-3. Vite 3 - powered by [Django Vite](https://github.com/MrBin99/django-vite)
+2. Django v4.2
+3. Vite 5 - powered by [Django Vite](https://github.com/MrBin99/django-vite)
 4. Vue 3
 5. TypeScript
 6. [WhiteNoise](https://whitenoise.evans.io/en/stable/index.html) - to serve static files
